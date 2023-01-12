@@ -1,0 +1,34 @@
+.container{
+    display: flex;
+    align-items: stretch;
+    flex-direction: row;
+    justify-content:space-around;
+   
+}
+
+
+.container .child1{
+    background-color: blue;
+   
+}
+.container .child2{
+    background-color: rgb(13, 193, 76);
+    
+}
+.container .child3{
+    background-color: rgb(232, 28, 184);
+ 
+}
+.container div{
+    padding: 20px;
+    flex-basis: 20%;
+}
+/*----------responsive-------------*/
+@media  (max-width:700px) {
+    .container{
+      
+        flex-direction: column;
+      
+       
+    }
+}
